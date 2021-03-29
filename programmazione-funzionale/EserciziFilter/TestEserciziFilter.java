@@ -57,13 +57,13 @@ public class TestEserciziFilter {
 
     // Conta tutti i valori divisibili per 2 o per 5
     private void testEs8() {
-        List<Integer> list = List.of(-2, 1, 2, 5, 10);
-        expected("testEs8", ef.es8(list), 4);
+        List<Integer> list = List.of(1, 2, 5, 10);
+        expected("testEs8", ef.es8(list), 3);
     }
 
     // Conta tutti i valori divisibili sia per 2 che per 5
     private void testEs9() {
-        List<Integer> list = List.of(-2, 1, 2, 5, 10);
+        List<Integer> list = List.of(1, 2, 5, 10);
         expected("testEs9", ef.es9(list), 1);
     }
 
@@ -85,6 +85,8 @@ public class TestEserciziFilter {
         t.testEs7();
         t.testEs8();
         t.testEs9();
+
+        System.out.println(-11%2);
     }
     
 }
