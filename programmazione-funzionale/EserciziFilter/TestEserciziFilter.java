@@ -86,7 +86,6 @@ public class TestEserciziFilter {
         t.testEs8();
         t.testEs9();
 
-        System.out.println(-11%2);
     }
     
 }
