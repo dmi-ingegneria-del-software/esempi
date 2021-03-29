@@ -46,7 +46,7 @@ public class EserciziFilter {
         return 0;
     }
 
-    // Conta tutti i valori divisibili o per 2 o per 5
+    // Conta tutti i valori divisibili per 2 o per 5
     public long es8(List<Integer> list) {
         return 0;
     }

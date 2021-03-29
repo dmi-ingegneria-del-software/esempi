@@ -55,7 +55,7 @@ public class TestEserciziFilter {
         expected("testEs7", ef.es7(list), 2);
     }
 
-    // Conta tutti i valori divisibili o per 2 o per 5
+    // Conta tutti i valori divisibili per 2 o per 5
     private void testEs8() {
         List<Integer> list = List.of(-2, 1, 2, 5, 10);
         expected("testEs8", ef.es8(list), 4);
